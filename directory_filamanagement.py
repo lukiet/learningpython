@@ -7,4 +7,5 @@ os.chdir('C:\\Users\\luket\\OneDrive\\Desktop\\projects\\school\\python\\learnin
 print(os.listdir())
 # os.mkdir('newdir')  # create a new directory
 os.rename('newdir', 'newdir2')  # rename a directory
-print(os.listdir())
+os.rmdir('newdir2')  # remove a directory
+# print(os.listdir())
