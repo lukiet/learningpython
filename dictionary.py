@@ -9,3 +9,8 @@ print(details.get('age'))
 
 # update the dictionary
 details['Location'] = 'Uganda'
+print(details)
+
+# add a new key-value pair
+details['race'] = 'African'
+print(details)
