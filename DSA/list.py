@@ -10,4 +10,5 @@ list_grid = [
 ]
 
 for i in list_grid:
-    print(i)
+    for j in i:
+        print(j)
